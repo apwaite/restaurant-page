@@ -1,0 +1,25 @@
+{
+  "name": "restaurant-page",
+  "version": "1.0.0",
+  "description": "Restaurant page created with JavaScript and bundled using Webpack",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "webpack --progress --watch",
+    "build": "webpack --progress"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/apwaite/restaurant-page.git"
+  },
+  "author": "apwaite",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/apwaite/restaurant-page/issues"
+  },
+  "homepage": "https://github.com/apwaite/restaurant-page#readme",
+  "devDependencies": {
+    "webpack": "^5.50.0",
+    "webpack-cli": "^4.8.0"
+  }
+}
