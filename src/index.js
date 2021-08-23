@@ -1,8 +1,13 @@
 import "./css/style.css";
 import "normalize.css";
+import renderContent from "./pages/initialRender";
+
+renderPage();
 
 console.log("I'm working!");
 
-const content = document.getElementById("content");
-
 console.log("I'm still working");
+
+function renderPage() {
+  renderContent();
+}
