@@ -3,6 +3,7 @@ import "normalize.css";
 import { renderHeader } from "./components/header";
 import { renderNav } from "./components/nav";
 import { renderHome } from "./components/main";
+import { renderFooter } from "./components/footer";
 
 renderPage();
 
@@ -17,4 +18,5 @@ function renderPage() {
   const section = document.createElement("section");
   content.appendChild(section);
   section.appendChild(renderHome());
+  content.appendChild(renderFooter());
 }
