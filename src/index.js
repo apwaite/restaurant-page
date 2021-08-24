@@ -1,6 +1,8 @@
 import "./css/style.css";
 import "normalize.css";
-import renderContent from "./pages/initialRender";
+import { renderHeader } from "./components/header";
+import { renderNav } from "./components/nav";
+import { renderHome } from "./components/main";
 
 renderPage();
 
@@ -9,5 +11,9 @@ console.log("I'm working!");
 console.log("I'm still working");
 
 function renderPage() {
-  renderContent();
+  const content = document.getElementById("content");
+  content.appendChild(renderHeader());
+  content.appendChild(renderNav());
+  const section = document.createElement("section");
+  content.appendChild(section);
 }
