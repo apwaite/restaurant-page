@@ -1,6 +1,7 @@
 const renderHome = () => {
   const home = document.createElement("main");
-  main.classList.add("home");
+  home.classList.add("home");
+  home.textContent = "Hi";
   return home;
 };
 
