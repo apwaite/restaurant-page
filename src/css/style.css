@@ -17,6 +17,8 @@
   background-color: var(--bg-color);
 }
 
+/* Header */
+
 header {
   display: flex;
   justify-content: center;
@@ -26,4 +28,19 @@ header {
 
 h1 {
   color: var(--font-secondary);
+}
+
+/* Navigation */
+
+nav {
+  display: flex;
+  flex-direction: row;
+  text-decoration: none;
+  min-height: 3rem;
+  background-color: var(--header-color);
+}
+
+nav ul {
+  color: var(--font-secondary);
+  list-style-type: none;
 }
