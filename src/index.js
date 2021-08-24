@@ -16,4 +16,5 @@ function renderPage() {
   content.appendChild(renderNav());
   const section = document.createElement("section");
   content.appendChild(section);
+  section.appendChild(renderHome());
 }
