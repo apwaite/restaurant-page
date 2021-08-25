@@ -5,11 +5,9 @@ import { renderNav } from "./components/nav";
 import { renderHome } from "./components/main";
 import { renderFooter } from "./components/footer";
 
+console.log("Connected!");
+
 renderPage();
-
-console.log("I'm working!");
-
-console.log("I'm still working");
 
 function renderPage() {
   const content = document.getElementById("content");
