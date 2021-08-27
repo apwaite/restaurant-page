@@ -3,12 +3,12 @@
 
 :root {
   --bg-color: #101010;
-  --font-primary: #eebc1d;
+  --font-primary: #b26646;
   --font-secondary: #f5f5f5;
   --font-tertiary: #424242;
   --header-color: #f5f5f5;
   --nav-bg-color: #101010;
-  --section-color: #eebc1d;
+  --section-color: #b26646;
 }
 
 .content {
@@ -85,10 +85,15 @@ main {
   display: flex;
   flex-direction: column;
   background-color: white;
+  height: 100rem;
   margin-left: auto;
   margin-right: auto;
   width: 100%;
   color: var(--font-secondary);
+}
+
+.main {
+  height: 110vh;
 }
 
 .main-home {
@@ -98,22 +103,22 @@ main {
   flex: 1;
   background-color: var(--bg-color);
   background-image: url("../assets/bg-img.jpg");
+  background-position: bottom;
   background-repeat: no-repeat;
   background-size: contain;
 }
 
 .col-left {
-  width: 50%;
-  background-color: blue;
+  order: 2;
 }
 
 .col-right {
-  width: 50%;
+  order: 1;
   text-align: left;
   font-family: "Open Sans";
   font-weight: 400;
   color: var(--font-primary);
-  background-color: green;
+  margin: 1rem;
 }
 
 /* .colLeft,
@@ -142,10 +147,54 @@ footer {
   header img {
     max-width: 360px;
   }
+
+  .main-home {
+    flex-direction: row;
+    background-position: left center;
+  }
+
+  .main {
+    height: 0vh;
+  }
+
+  .col-left {
+    width: 50%;
+    order: 1;
+  }
+
+  .col-right {
+    order: 2;
+    width: 50%;
+    text-align: left;
+    font-family: "Open Sans";
+    font-weight: 400;
+    color: var(--font-primary);
+  }
 }
 
 @media screen and (min-width: 1024px) {
   header img {
     max-width: 360px;
+  }
+
+  .main {
+    height: 0vh;
+  }
+
+  .main-home {
+    flex-direction: row;
+    background-position: left center;
+  }
+
+  .col-left {
+    width: 50%;
+  }
+
+  .col-right {
+    width: 50%;
+    text-align: left;
+    font-family: "Open Sans";
+    font-weight: 400;
+    color: var(--font-primary);
   }
 }
