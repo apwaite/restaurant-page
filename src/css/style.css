@@ -140,7 +140,7 @@ footer {
     max-width: 360px;
   }
 
-  .about {
+  .main-about {
     flex-direction: row;
     background-position: left center;
   }
@@ -173,7 +173,7 @@ footer {
     height: 0vh;
   }
 
-  .about {
+  .main-about {
     flex-direction: row;
     background-position: left center;
   }
