@@ -93,10 +93,10 @@ main {
 }
 
 .main {
-  height: 110vh;
+  height: 100vh;
 }
 
-.main-home {
+.main-about {
   display: flex;
   flex-direction: column;
   flex-basis: 100%;
@@ -108,28 +108,19 @@ main {
   background-size: contain;
 }
 
-.col-left {
+.con-0 {
   order: 2;
 }
 
-.col-right {
+.con-1 {
   order: 1;
-  text-align: left;
+  text-align: center;
   font-family: "Open Sans";
   font-weight: 400;
   color: var(--font-primary);
-  margin: 1rem;
+  padding: 1rem;
+  padding-top: 0rem;
 }
-
-/* .colLeft,
-img {
-  width: 75%;
-  background: no-repeat;
-} */
-
-/* .bg-img {
-  border-right: 1px solid var(--section-color);
-} */
 
 /* Footer */
 
@@ -137,6 +128,7 @@ footer {
   display: flex;
   flex-direction: row;
   justify-content: center;
+  align-items: center;
   background-color: var(--nav-bg-color);
   height: 2rem;
   color: var(--font-secondary);
@@ -148,7 +140,7 @@ footer {
     max-width: 360px;
   }
 
-  .main-home {
+  .about {
     flex-direction: row;
     background-position: left center;
   }
@@ -157,12 +149,12 @@ footer {
     height: 0vh;
   }
 
-  .col-left {
+  .con-0 {
     width: 50%;
     order: 1;
   }
 
-  .col-right {
+  .con-1 {
     order: 2;
     width: 50%;
     text-align: left;
@@ -181,16 +173,16 @@ footer {
     height: 0vh;
   }
 
-  .main-home {
+  .about {
     flex-direction: row;
     background-position: left center;
   }
 
-  .col-left {
+  .con-0 {
     width: 50%;
   }
 
-  .col-right {
+  .con-1 {
     width: 50%;
     text-align: left;
     font-family: "Open Sans";
