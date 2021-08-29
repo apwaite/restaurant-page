@@ -15,7 +15,7 @@ function createNavEvents() {
   const about = document.querySelector(".about");
   const menu = document.querySelector(".menu");
   const contact = document.querySelector(".contact");
-  // const contact = document.querySelector("contact");
+
   about.addEventListener("click", () => {
     main.removeChild(main.firstChild);
     main.appendChild(renderAbout());
