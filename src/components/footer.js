@@ -1,7 +1,7 @@
 const renderFooter = () => {
   const footer = document.createElement("footer");
   footer.classList.add("footer");
-  footer.textContent = "This is a footer";
+  footer.textContent = "Made with ❤️ by Andrew";
   return footer;
 };
 
