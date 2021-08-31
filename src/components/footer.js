@@ -8,6 +8,9 @@ const renderFooter = () => {
   link.href = "https://github.com/apwaite";
   link.target = "_blank";
   p.appendChild(link);
+  const span = document.createElement("span");
+  span.classList.add("fab", "fa-github");
+  link.appendChild(span);
   footer.appendChild(p);
   return footer;
 };
