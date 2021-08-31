@@ -150,6 +150,11 @@ footer {
   /* border-top: 1px solid var(--section-color); */
 }
 
+.fa-github {
+  padding-left: 1rem;
+  color: var(--font-secondary);
+}
+
 @media screen and (min-width: 768px) and (max-width: 1023px) {
   header img {
     max-width: 360px;
