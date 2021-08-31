@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&family=Roboto:wght@900&display=swap");
 @import url("//use.fontawesome.com/releases/v5.0.7/css/all.css");
 
+/* TODO: work on color scheme */
 :root {
   --bg-color: #101010;
   --font-primary: #b26646;
