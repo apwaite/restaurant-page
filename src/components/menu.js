@@ -1,6 +1,6 @@
 console.log("Loaded menu");
 
-function newMenuItem(src, alt, name, cost) {
+const newMenuItem = (src, alt, name, cost) => {
   const menuItem = document.createElement("div");
   menuItem.classList.add("menu-item");
   const img = document.createElement("img");
@@ -16,7 +16,8 @@ function newMenuItem(src, alt, name, cost) {
   itemInfo.appendChild(itemCost);
   menuItem.appendChild(img);
   menuItem.appendChild(itemInfo);
-}
+  return menuItem;
+};
 
 const renderMenu = () => {
   const menu = document.createElement("main");
