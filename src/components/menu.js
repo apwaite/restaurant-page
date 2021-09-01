@@ -41,6 +41,12 @@ const renderMenu = () => {
       "Ice Cold Soda",
       "Small: $1.99, Medium: $2.99, Large: $3.99"
     ),
+    newMenuItem(
+      "../../dist/assets/milkshake.jpg",
+      "Milkshake",
+      "Milkshake",
+      "Small: $3.99, Medium: $5.99, Large: £7.99)"
+    ),
   ];
 
   menuItems.map((item) => {
