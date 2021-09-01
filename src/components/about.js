@@ -15,8 +15,4 @@ const renderAbout = () => {
   return about;
 };
 
-// const RenderMenu = () => {
-//   const menu = document.createElement("main");
-// };
-
 export { renderAbout };
