@@ -100,7 +100,6 @@ main {
   display: flex;
   flex-direction: column;
   background-color: white;
-  height: 100rem;
   margin-left: auto;
   margin-right: auto;
   width: 100%;
@@ -109,8 +108,9 @@ main {
 }
 
 .main {
-  height: 100vh;
 }
+
+/* About Page */
 
 .main-about {
   display: flex;
