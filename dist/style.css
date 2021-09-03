@@ -155,7 +155,7 @@ footer p {
 
 .fa-github {
   margin-left: 0.5rem;
-  color: var(--font-secondary);
+  color: var(--font-primary);
 }
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
