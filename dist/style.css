@@ -6,11 +6,12 @@
   --bg-color: #101010;
   --font-primary: #f5f5f5;
   --font-secondary: #121212;
-  --h1-color: #f5f5f5;
+  --h1-color: #121212;
   --h1-color-stroke: #424242;
   --font-active: #ebc99c;
-  --header-color: #101010;
+  --header-color: #f5f5f5;
   --nav-bg-color: #101010;
+  --footer-bg-color: #f5f5f5;
   --section-color: #b26646;
 }
 
@@ -28,6 +29,7 @@ header {
   justify-content: center;
   min-height: 5rem;
   background-color: var(--header-color);
+  border-bottom: 1px solid var(--h1-color-stroke);
 }
 
 h1 {
