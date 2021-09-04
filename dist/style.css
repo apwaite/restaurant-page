@@ -141,7 +141,6 @@ footer {
   background-color: var(--nav-bg-color);
   height: 2rem;
   color: var(--font-primary);
-  /* border-top: 1px solid var(--section-color); */
 }
 
 footer p {
