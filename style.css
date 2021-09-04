@@ -123,7 +123,6 @@ main {
 
 .con-0 {
   order: 2;
-  background-color: green;
 }
 
 .con-1 {
@@ -133,7 +132,6 @@ main {
   font-family: "Open Sans";
   font-weight: 400;
   color: var(--font-primary);
-  background: blue;
 }
 
 /* Footer */
