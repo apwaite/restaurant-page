@@ -43,7 +43,6 @@ nav {
   flex-direction: row;
   min-height: 3rem;
   background-color: var(--nav-bg-color);
-  /* border-bottom: 1px solid var(--section-color); */
 }
 
 header img {
