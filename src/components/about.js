@@ -7,11 +7,17 @@ const renderAbout = () => {
   const con1 = document.createElement("section");
   con1.classList.add("con-1");
   about.appendChild(con1);
+  const inner1 = document.createElement("div");
+  inner1.classList.add("inner-1");
+  con1.appendChild(inner1);
+  const inner2 = document.createElement("div");
+  inner2.classList.add("inner-2");
+  con1.appendChild(inner2);
   const statement = document.createElement("p");
   statement.classList.add("statement");
   statement.textContent =
     '"At Burger Place we value each and every one of our customers. That\'s why we go above and beyond when crafting our traditional gourmet burgers, fries and shakes in order to create the perfect infusion of flavours that will leave you wanting more."';
-  con1.appendChild(statement);
+  inner2.appendChild(statement);
   return about;
 };
 
