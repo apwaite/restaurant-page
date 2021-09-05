@@ -10,6 +10,11 @@ const renderAbout = () => {
   const inner1 = document.createElement("div");
   inner1.classList.add("inner-1");
   con1.appendChild(inner1);
+  const img = document.createElement("img");
+  img.classList.add("chef");
+  img.src = "../../dist/assets/chef.jpg";
+  img.alt = "Image of chef";
+  inner1.appendChild(img);
   const inner2 = document.createElement("div");
   inner2.classList.add("inner-2");
   con1.appendChild(inner2);
