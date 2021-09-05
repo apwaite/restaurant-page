@@ -15,11 +15,15 @@
   --section-color: #b26646;
 }
 
+body {
+  overflow-x: hidden;
+}
+
 .content {
   display: flex;
   flex-direction: column;
   width: 100%;
-  /* min-height: 100vh; */
+  min-height: 100vh;
 }
 
 /* Header */
