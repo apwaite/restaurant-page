@@ -263,7 +263,7 @@ footer p {
   }
 }
 
-@media screen and (min-width: 1023px) {
+@media screen and (min-width: 1112px) {
   .content {
     min-height: 100vh;
   }
