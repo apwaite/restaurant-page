@@ -176,6 +176,37 @@ footer p {
   color: var(--font-primary);
 }
 
+@media screen and (min-width: 320px) and (max-width: 374px) {
+  .main-about {
+    font-size: 0.9rem;
+  }
+
+  .con-0 {
+    order: 2;
+    min-height: 60%;
+  }
+
+  .con-1 {
+    order: 1;
+    min-height: 40%;
+    max-height: 30%;
+    text-align: center;
+    font-family: "Open Sans";
+    font-weight: 400;
+    color: var(--font-secondary);
+    background-color: var(--bg-color-alt);
+  }
+
+  .inner-1 {
+    padding: 0.5rem;
+  }
+
+  .inner-1 img {
+    width: 30%;
+    border-radius: 10rem;
+  }
+}
+
 @media screen and (min-width: 768px) and (max-width: 1023px) {
   .content {
     min-height: 100vh;
