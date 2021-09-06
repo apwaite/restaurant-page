@@ -181,10 +181,6 @@ footer p {
     min-height: 100vh;
   }
 
-  header img {
-    max-width: 360px;
-  }
-
   .main-about {
     flex-direction: row;
     background-position: left center;
@@ -209,7 +205,7 @@ footer p {
   }
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1023px) {
   .content {
     min-height: 100vh;
   }
