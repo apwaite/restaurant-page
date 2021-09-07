@@ -275,6 +275,8 @@ footer p {
 
 @media screen and (min-width: 1023px) and (max-width: 1111px) {
   .content {
+    margin: auto;
+    width: 90%;
     min-height: 100vh;
   }
 
