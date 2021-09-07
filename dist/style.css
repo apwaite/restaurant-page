@@ -278,7 +278,6 @@ footer p {
   .content {
     margin: auto;
     width: 90%;
-    min-height: 100vh;
   }
 
   .main-about {
