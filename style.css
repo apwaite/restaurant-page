@@ -308,7 +308,6 @@ footer p {
   .content {
     margin: auto;
     width: 80%;
-    min-height: 100vh;
   }
 
   .main {
