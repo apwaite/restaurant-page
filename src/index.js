@@ -33,13 +33,4 @@ renderPage();
 
 function renderPage() {
   initialRender();
-  // const content = document.getElementById("content");
-  // content.appendChild(renderHeader());
-  // content.appendChild(renderNav());
-  // const section = document.createElement("section");
-  // section.classList.add("main");
-  // content.appendChild(section);
-  // section.appendChild(renderAbout());
-  // content.appendChild(renderFooter());
-  // createNavEvents();
 }
