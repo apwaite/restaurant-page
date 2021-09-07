@@ -11,26 +11,6 @@ console.log("Connected!");
 
 renderPage();
 
-// function createNavEvents() {
-//   const main = document.querySelector(".main");
-//   const about = document.querySelector(".about");
-//   const menu = document.querySelector(".menu");
-//   const contact = document.querySelector(".contact");
-
-//   about.addEventListener("click", () => {
-//     main.removeChild(main.firstChild);
-//     main.appendChild(renderAbout());
-//   });
-//   menu.addEventListener("click", () => {
-//     main.removeChild(main.firstChild);
-//     main.appendChild(renderMenu());
-//   });
-//   contact.addEventListener("click", () => {
-//     main.removeChild(main.firstChild);
-//     main.appendChild(renderContact());
-//   });
-// }
-
 function renderPage() {
   initialRender();
 }
