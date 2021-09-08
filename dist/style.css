@@ -123,18 +123,18 @@ main {
   background-size: contain; */
 }
 
-.con-0 {
-  display: flex;
-  flex-direction: column;
-}
-
-.con-1 {
+.mission {
   display: flex;
   text-align: center;
   font-family: "Open Sans";
   font-weight: 400;
   color: var(--font-secondary);
   background-color: var(--bg-color-alt);
+}
+
+.con-1 {
+  display: flex;
+  flex-direction: column;
 }
 
 .inner-1 {
@@ -175,7 +175,7 @@ footer p {
   color: var(--font-primary);
 }
 
-@media screen and (min-width: 320px) and (max-width: 374px) {
+/* @media screen and (min-width: 320px) and (max-width: 374px) {
   .main-about {
     font-size: 0.9rem;
   }
@@ -204,7 +204,7 @@ footer p {
     width: 30%;
     border-radius: 10rem;
   }
-}
+} */
 
 @media screen and (min-width: 375px) and (max-width: 539px) {
   .con-0 {
