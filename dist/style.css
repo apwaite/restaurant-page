@@ -185,17 +185,6 @@ footer p {
     font-size: 0.9rem;
   }
 
-  .mission {
-    text-align: center;
-    font-family: "Open Sans";
-    font-weight: 400;
-    color: var(--font-secondary);
-    background-color: var(--bg-color-alt);
-  }
-
-  .con-1 {
-  }
-
   .inner-1 {
     padding: 0.5rem;
     margin: 0;
@@ -208,14 +197,6 @@ footer p {
 }
 
 @media screen and (min-width: 375px) and (max-width: 539px) {
-  .mission {
-    text-align: center;
-    font-family: "Open Sans";
-    font-weight: 400;
-    color: var(--font-secondary);
-    background-color: var(--bg-color-alt);
-  }
-
   .inner-1 {
     padding: 0.5rem;
   }
@@ -237,7 +218,6 @@ footer p {
   .mission {
     flex-direction: row;
     align-items: center;
-    text-align: center;
     font-family: "Open Sans";
     font-weight: 600;
     font-size: 1.2rem;
@@ -273,10 +253,8 @@ footer p {
   }
 
   .mission {
-    text-align: left;
+    align-items: center;
     font-family: "Open Sans";
-    font-weight: 400;
-    color: var(--font-primary);
   }
 
   .con-0 {
@@ -290,15 +268,26 @@ footer p {
   }
 
   .main-about {
-    flex-direction: row;
     background-position: left center;
   }
 
   .mission {
-    text-align: left;
-    font-family: "Open Sans";
-    font-weight: 400;
-    color: var(--font-primary);
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .inner-1 {
+    padding: 0.5rem;
+    width: 40%;
+  }
+
+  .inner-1 img {
+    width: 50%;
+    border-radius: 10rem;
+  }
+
+  .inner-2 {
+    width: 50%;
   }
 
   .con-0 {
