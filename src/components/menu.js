@@ -36,6 +36,12 @@ const renderMenu = () => {
       "$8.99"
     ),
     newMenuItem(
+      "../../dist/assets/crispy-chicken.jpg",
+      "Crispy Chicken Burger",
+      "Crispy Chicken Burger",
+      "$10.99"
+    ),
+    newMenuItem(
       "../../dist/assets/ice-cold-soda.jpg",
       "Ice Cold Soda",
       "Ice Cold Soda",
