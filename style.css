@@ -100,8 +100,6 @@ main {
   display: flex;
   flex-direction: column;
   background-color: white;
-  margin-left: auto;
-  margin-right: auto;
   color: var(--font-secondary);
   background-color: var(--bg-color);
   padding: 0;
@@ -117,14 +115,12 @@ main {
   display: flex;
   flex-direction: column;
   flex: 1;
-  /* background-image: url("assets/bg-img.jpg");
-  background-position: bottom center;
-  background-repeat: no-repeat;
-  background-size: contain; */
 }
 
 .mission {
   display: flex;
+  justify-content: center;
+  height: 45%;
   text-align: center;
   font-family: "Open Sans";
   font-weight: 400;
@@ -134,7 +130,11 @@ main {
 
 .con-1 {
   display: flex;
-  flex-direction: column;
+  height: 55%;
+  background-image: url("assets/bg-img.jpg");
+  background-position: bottom left;
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 
 .inner-1 {
@@ -181,8 +181,6 @@ footer p {
   }
 
   .mission {
-    min-height: 40%;
-    max-height: 30%;
     text-align: center;
     font-family: "Open Sans";
     font-weight: 400;
@@ -204,7 +202,7 @@ footer p {
 }
 
 @media screen and (min-width: 375px) and (max-width: 539px) {
-  .con-0 {
+  .mission {
     text-align: center;
     font-family: "Open Sans";
     font-weight: 400;
