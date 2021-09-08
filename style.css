@@ -175,18 +175,12 @@ footer p {
   color: var(--font-primary);
 }
 
-/* @media screen and (min-width: 320px) and (max-width: 374px) {
+@media screen and (min-width: 320px) and (max-width: 374px) {
   .main-about {
     font-size: 0.9rem;
   }
 
-  .con-0 {
-    order: 2;
-    min-height: 60%;
-  }
-
-  .con-1 {
-    order: 1;
+  .mission {
     min-height: 40%;
     max-height: 30%;
     text-align: center;
@@ -196,29 +190,7 @@ footer p {
     background-color: var(--bg-color-alt);
   }
 
-  .inner-1 {
-    padding: 0.5rem;
-  }
-
-  .inner-1 img {
-    width: 30%;
-    border-radius: 10rem;
-  }
-} */
-
-@media screen and (min-width: 375px) and (max-width: 539px) {
-  .con-0 {
-    min-height: 65%;
-  }
-
   .con-1 {
-    min-height: 35%;
-
-    text-align: center;
-    font-family: "Open Sans";
-    font-weight: 400;
-    color: var(--font-secondary);
-    background-color: var(--bg-color-alt);
   }
 
   .inner-1 {
@@ -231,22 +203,36 @@ footer p {
   }
 }
 
-@media screen and (min-width: 540px) and (max-width: 1023px) {
-  .main-about {
-    flex-direction: row;
-    background-position: left center;
+@media screen and (min-width: 375px) and (max-width: 539px) {
+  .con-0 {
+    text-align: center;
+    font-family: "Open Sans";
+    font-weight: 400;
+    color: var(--font-secondary);
+    background-color: var(--bg-color-alt);
   }
 
-  .con-0 {
-    order: 2;
-    min-height: max-content;
+  .inner-1 {
+    padding: 0.5rem;
+  }
+
+  .inner-1 img {
+    width: 30%;
+    border-radius: 10rem;
   }
 
   .con-1 {
+  }
+}
+
+@media screen and (min-width: 540px) and (max-width: 1023px) {
+  .main-about {
+    background-position: left center;
+  }
+
+  .mission {
     flex-direction: row;
     align-items: center;
-    order: 1;
-    min-height: 40%;
     text-align: center;
     font-family: "Open Sans";
     font-weight: 400;
@@ -267,6 +253,9 @@ footer p {
   .inner-2 {
     width: 50%;
   }
+
+  .con-0 {
+  }
 }
 
 @media screen and (min-width: 1023px) and (max-width: 1111px) {
@@ -275,26 +264,17 @@ footer p {
   }
 
   .main-about {
-    flex-direction: row;
     background-position: left center;
   }
 
-  .main {
-    height: 0vh;
-  }
-
-  .con-0 {
-    order: 1;
-    width: 50%;
-  }
-
-  .con-1 {
-    order: 2;
-    width: 50%;
+  .mission {
     text-align: left;
     font-family: "Open Sans";
     font-weight: 400;
     color: var(--font-primary);
+  }
+
+  .con-0 {
   }
 }
 
@@ -304,26 +284,19 @@ footer p {
     width: 80%;
   }
 
-  .main {
-    height: 0vh;
-  }
-
   .main-about {
     flex-direction: row;
     background-position: left center;
   }
 
-  .con-0 {
-    order: 1;
-    width: 40%;
-  }
-
-  .con-1 {
-    order: 2;
-    width: 60%;
+  .mission {
     text-align: left;
     font-family: "Open Sans";
     font-weight: 400;
     color: var(--font-primary);
+  }
+
+  .con-0 {
+    width: 40%;
   }
 }
