@@ -186,7 +186,6 @@ footer {
   justify-content: center;
   align-items: center;
   background-color: var(--bg-color-alt);
-  height: 2rem;
   color: var(--font-secondary);
   font-weight: 600;
 }
