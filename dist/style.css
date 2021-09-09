@@ -3,6 +3,7 @@
 
 /* TODO: work on color scheme */
 :root {
+  --bg-body: linear-gradient(180deg, #383838ff 0, #4e4e4eff 100%);
   --bg-color: #101010;
   --bg-color-alt: #f5f5f5;
   --font-primary: #f5f5f5;
@@ -18,7 +19,7 @@
 
 body {
   overflow-x: hidden;
-  background-color: grey;
+  background: var(--bg-body);
 }
 
 .content {
@@ -285,7 +286,7 @@ footer p {
 @media screen and (min-width: 1112px) {
   .content {
     margin: auto;
-    width: 80%;
+    width: 85%;
   }
 
   .main-about {
