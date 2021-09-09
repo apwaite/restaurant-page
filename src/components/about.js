@@ -23,7 +23,6 @@ const renderAbout = () => {
   const con1 = document.createElement("section");
   con1.classList.add("con-1");
   about.appendChild(con1);
-
   return about;
 };
 
