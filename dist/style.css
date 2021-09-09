@@ -239,8 +239,8 @@ footer p {
   .mission {
     flex-direction: row;
     align-items: center;
+    justify-content: normal;
     font-family: "Open Sans";
-    font-weight: 600;
     font-size: 1.2rem;
     color: var(--font-secondary);
     background-color: var(--bg-color-alt);
@@ -252,7 +252,7 @@ footer p {
   }
 
   .inner-1 img {
-    width: 80%;
+    object-fit: fill;
     border-radius: 10rem;
   }
 
@@ -275,6 +275,8 @@ footer p {
   }
 
   .mission {
+    flex-direction: row;
+    justify-content: normal;
     align-items: center;
     font-family: "Open Sans";
   }
@@ -292,12 +294,13 @@ footer p {
 
   .mission {
     flex-direction: row;
+    justify-content: normal;
     align-items: center;
   }
 
   .inner-1 {
     padding: 0.5rem;
-    width: 40%;
+    width: 50%;
   }
 
   .inner-1 img {
@@ -306,7 +309,6 @@ footer p {
   }
 
   .inner-2 {
-    width: 50%;
   }
 
   .images {
