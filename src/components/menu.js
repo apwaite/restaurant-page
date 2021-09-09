@@ -8,9 +8,9 @@ const newMenuItem = (src, alt, name, cost) => {
   img.alt = alt;
   const itemInfo = document.createElement("div");
   itemInfo.classList.add("info");
-  const itemName = document.createElement("h3");
+  const itemName = document.createElement("h2");
   itemName.textContent = name;
-  const itemCost = document.createElement("h2");
+  const itemCost = document.createElement("h3");
   itemCost.textContent = cost;
   itemInfo.appendChild(itemName);
   itemInfo.appendChild(itemCost);
