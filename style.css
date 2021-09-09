@@ -128,7 +128,7 @@ main {
   background-color: var(--bg-color-alt);
 }
 
-.con-1 {
+.images {
   display: flex;
   height: 55%;
   background-image: url("assets/bg-img.jpg");
@@ -227,7 +227,7 @@ footer p {
     border-radius: 10rem;
   }
 
-  .con-1 {
+  .images {
   }
 }
 
@@ -260,7 +260,7 @@ footer p {
     width: 50%;
   }
 
-  .con-0 {
+  .images {
   }
 }
 
@@ -277,9 +277,6 @@ footer p {
   .mission {
     align-items: center;
     font-family: "Open Sans";
-  }
-
-  .con-0 {
   }
 }
 
@@ -312,7 +309,7 @@ footer p {
     width: 50%;
   }
 
-  .con-0 {
+  .images {
     width: 40%;
   }
 }
