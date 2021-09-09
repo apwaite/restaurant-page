@@ -167,6 +167,7 @@ main {
 .menu-item {
   display: flex;
   flex-direction: row;
+  padding: 1rem;
   color: var(--font-primary);
   background-color: var(--bg-color);
 }
