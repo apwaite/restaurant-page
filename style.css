@@ -103,9 +103,9 @@ main {
   background-color: var(--bg-color);
 }
 
-.main {
+/* .main {
   height: 100vh;
-}
+} */
 
 /* About Page */
 
@@ -113,6 +113,7 @@ main {
   display: flex;
   flex-direction: column;
   flex: 1;
+  height: 100vh;
 }
 
 .mission {
@@ -265,6 +266,7 @@ footer p {
 @media screen and (min-width: 1023px) and (max-width: 1111px) {
   .content {
     margin: auto;
+    width: 90%;
   }
 
   .main-about {
