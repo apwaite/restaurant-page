@@ -39,6 +39,12 @@ header {
   border-bottom: 1px solid var(--h1-color-stroke);
 }
 
+.logo {
+  height: 2rem;
+  align-self: center;
+  padding-right: 2rem;
+}
+
 h1 {
   font-family: "Roboto";
   color: var(--h1-color);
