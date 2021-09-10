@@ -1,6 +1,5 @@
 const renderHeader = () => {
   const header = document.createElement("header");
-  // header.classList.add("header");
   const logo = document.createElement("img");
   logo.classList.add("logo");
   logo.src = "../../dist/assets/bp-logo.png";
