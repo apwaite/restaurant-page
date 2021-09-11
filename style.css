@@ -289,19 +289,20 @@ footer p {
     justify-content: normal;
     align-items: center;
     font-family: "Open Sans";
+    font-size: 1.8rem;
   }
 
   .inner-1 {
-    height: 100%;
     width: 40%;
   }
 
   .inner-1 img {
-    object-fit: fill;
+    width: 80%;
   }
 
   .inner-2 {
     width: 60%;
+    padding-right: 1rem;
   }
 
   .images {
