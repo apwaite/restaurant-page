@@ -147,7 +147,6 @@ main {
   display: flex;
   justify-content: center;
   margin-bottom: 2rem;
-  align-items: center;
 }
 
 .inner-1 img {
@@ -323,8 +322,7 @@ footer p {
   }
 
   .inner-1 {
-    height: 100%;
-    width: 40%;
+    width: 25%;
   }
 
   /* .inner-1 img {
