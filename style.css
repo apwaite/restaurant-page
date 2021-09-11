@@ -229,6 +229,10 @@ footer p {
     padding: 0.5rem;
   }
 
+  .mission {
+    height: 55%;
+  }
+
   .inner-1 img {
     width: 35%;
     border-radius: 10rem;
