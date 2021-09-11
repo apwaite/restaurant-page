@@ -33,16 +33,16 @@ body {
 header {
   display: flex;
   justify-content: left;
-  padding-left: 2rem;
+  padding-left: 1rem;
   min-height: 5rem;
   background-color: var(--header-color);
   border-bottom: 1px solid var(--h1-color-stroke);
 }
 
 .logo {
-  height: 2rem;
+  height: 2.5rem;
   align-self: center;
-  padding-right: 2rem;
+  padding-right: 1rem;
 }
 
 h1 {
