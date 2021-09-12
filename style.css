@@ -322,8 +322,8 @@ footer p {
 
   .mission {
     flex-direction: row;
-    justify-content: normal;
     align-items: center;
+    justify-content: normal;
     height: 40%;
   }
 
@@ -331,9 +331,10 @@ footer p {
     width: 25%;
   }
 
-  /* .inner-1 img {
+  .inner-1 img {
+    width: 60%;
     border-radius: 10rem;
-  } */
+  }
 
   .inner-2 {
     width: 60%;
