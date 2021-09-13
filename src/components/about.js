@@ -1,4 +1,13 @@
+function activeNavLink() {
+  const about = document.querySelector(".about");
+  const currentActive = document.querySelector(".active");
+  console.log(currentActive);
+  if (currentActive) currentActive.classList.remove(".active");
+  about.classList.add("active");
+}
+
 const renderAbout = () => {
+  activeNavLink();
   const about = document.createElement("main");
   about.classList.add("main-about");
   const mission = document.createElement("section");
