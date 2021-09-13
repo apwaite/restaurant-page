@@ -1,5 +1,13 @@
 console.log("Loaded menu");
 
+function activeNavLink() {
+  const menu = document.querySelector(".menu");
+  const currentActive = document.querySelector(".active");
+  console.log(currentActive);
+  if (currentActive) currentActive.classList.remove("active");
+  menu.classList.add("active");
+}
+
 const newMenuItem = (src, alt, name, cost) => {
   const menuItem = document.createElement("div");
   menuItem.classList.add("menu-item");
@@ -22,6 +30,7 @@ const newMenuItem = (src, alt, name, cost) => {
 const renderMenu = () => {
   const menu = document.createElement("main");
   menu.classList.add("main-menu");
+  activeNavLink();
   const menuItems = [
     newMenuItem(
       "../../dist/assets/bacon-cheese.jpg",
