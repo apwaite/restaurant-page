@@ -5,6 +5,22 @@ import { renderMenu } from "./menu";
 import { renderContact } from "./contact";
 import { renderFooter } from "./footer";
 
+function activeNavLink(el) {
+  const about = document.querySelector(".about");
+  const menu = document.querySelector(".menu");
+  const contact = document.querySelector(".contact");
+  const selectActive = document.querySelector(".active");
+  if (!selectActive) {
+    about.classList.add("active");
+  } else if ((el === "menu") {
+    selectActive.classList.remove("active");
+    menu.classList.add("active");
+  } else if ((el === "contact" ) {
+    selectActive.classList.remove("active");
+    contact.classList.add("active");
+  }
+}
+
 function createNavEvents() {
   const main = document.querySelector(".main");
   const about = document.querySelector(".about");
