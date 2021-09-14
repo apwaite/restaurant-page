@@ -1,11 +1,9 @@
+console.log("Loaded about");
+
 function activeNavLink() {
   const about = document.querySelector(".about");
   const currentActive = document.querySelector(".active");
-  console.log("Before remove:");
-  console.log(currentActive);
   if (currentActive) currentActive.classList.remove("active");
-  console.log("After remove:");
-  console.log(currentActive);
   about.classList.add("active");
 }
 
