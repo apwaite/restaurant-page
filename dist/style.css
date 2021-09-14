@@ -126,7 +126,7 @@ main {
 .mission {
   display: flex;
   justify-content: center;
-  height: 45%;
+  height: 60%;
   text-align: center;
   font-family: "Open Sans";
   font-weight: 600;
@@ -272,7 +272,7 @@ footer p {
 
   .inner-1 img {
     width: 60%;
-    border-radius: 10rem;
+    border-radius: 50%;
   }
 
   .inner-2 {
@@ -298,20 +298,22 @@ footer p {
     justify-content: normal;
     align-items: center;
     font-family: "Open Sans";
-    font-size: 1.8rem;
+    font-size: 1.5rem;
   }
 
   .inner-1 {
+    justify-content: normal;
+    padding-left: 2rem;
     width: 40%;
   }
 
   .inner-1 img {
-    width: 80%;
+    width: 60%;
   }
 
   .inner-2 {
     width: 60%;
-    padding-right: 1rem;
+    padding-right: 2rem;
   }
 
   .images {
@@ -337,7 +339,9 @@ footer p {
   }
 
   .inner-1 {
-    width: 25%;
+    justify-content: normal;
+    padding-left: 2rem;
+    width: 40%;
   }
 
   .inner-1 img {
