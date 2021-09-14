@@ -1,13 +1,15 @@
 function activeNavLink() {
   const about = document.querySelector(".about");
   const currentActive = document.querySelector(".active");
+  console.log("Before remove:");
   console.log(currentActive);
-  if (currentActive) currentActive.classList.remove(".active");
+  if (currentActive) currentActive.classList.remove("active");
+  console.log("After remove:");
+  console.log(currentActive);
   about.classList.add("active");
 }
 
 const renderAbout = () => {
-  activeNavLink();
   const about = document.createElement("main");
   about.classList.add("main-about");
   const mission = document.createElement("section");
@@ -32,6 +34,7 @@ const renderAbout = () => {
   const images = document.createElement("section");
   images.classList.add("images");
   about.appendChild(images);
+  activeNavLink();
   return about;
 };
 
