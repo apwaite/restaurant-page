@@ -172,6 +172,7 @@ main {
 
 .menu-item {
   display: flex;
+  flex-wrap: wrap;
   flex-direction: row;
   padding: 1rem;
 }
@@ -188,7 +189,7 @@ main {
 
 .menu-item img {
   padding-right: 0.5rem;
-  max-width: 50%;
+  max-width: 100%;
 }
 
 /* Footer */
