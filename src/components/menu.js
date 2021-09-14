@@ -3,8 +3,11 @@ console.log("Loaded menu");
 function activeNavLink() {
   const menu = document.querySelector(".menu");
   const currentActive = document.querySelector(".active");
+  console.log("Before remove:");
   console.log(currentActive);
   if (currentActive) currentActive.classList.remove("active");
+  console.log("After remove:");
+  console.log(currentActive);
   menu.classList.add("active");
 }
 
