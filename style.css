@@ -290,6 +290,8 @@ footer p {
     width: 90%;
   }
 
+  /* About */
+
   .main-about {
     background-position: left center;
   }
@@ -321,6 +323,8 @@ footer p {
     height: 60%;
   }
 
+  /* Menu */
+
   .menu-item {
     flex-wrap: none;
   }
@@ -331,6 +335,8 @@ footer p {
     margin: auto;
     width: 85%;
   }
+
+  /* About */
 
   .main-about {
     background-position: left center;
@@ -361,5 +367,11 @@ footer p {
 
   .images {
     height: 60%;
+  }
+
+  /* Menu */
+
+  .menu-item {
+    flex-wrap: none;
   }
 }
