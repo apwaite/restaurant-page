@@ -320,6 +320,10 @@ footer p {
   .images {
     height: 60%;
   }
+
+  .menu-item {
+    flex-wrap: none;
+  }
 }
 
 @media screen and (min-width: 1112px) {
