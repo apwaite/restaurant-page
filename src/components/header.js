@@ -6,7 +6,7 @@ const renderHeader = () => {
   logo.alt = "Burger Place Logo";
   header.appendChild(logo);
   const h1 = document.createElement("h1");
-  h1.textContent = "Burger Place";
+  h1.textContent = "BURGER PLACE";
   header.appendChild(h1);
   return header;
 };
