@@ -328,6 +328,10 @@ footer p {
   .menu-item {
     flex-wrap: none;
   }
+
+  .menu-item img {
+    max-width: 30%;
+  }
 }
 
 @media screen and (min-width: 1112px) {
@@ -356,7 +360,7 @@ footer p {
   }
 
   .inner-1 img {
-    width: 60%;
+    width: 50%;
     border-radius: 10rem;
   }
 
