@@ -378,4 +378,8 @@ footer p {
   .menu-item {
     flex-wrap: none;
   }
+
+  .menu-item img {
+    max-width: 25%;
+  }
 }
