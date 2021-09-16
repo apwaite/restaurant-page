@@ -192,6 +192,15 @@ main {
   max-width: 100%;
 }
 
+/* Contact Page */
+
+.main-contact {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  background: var(--bg-color);
+}
+
 /* Footer */
 
 footer {
