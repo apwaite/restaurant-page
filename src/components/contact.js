@@ -19,6 +19,9 @@ const renderContact = () => {
   const socialMedia = document.createElement("section");
   socialMedia.classList.add("social-media");
   contact.appendChild(socialMedia);
+  const location = document.createElement("section");
+  location.classList.add("location");
+  contact.appendChild(location);
   return contact;
 };
 
