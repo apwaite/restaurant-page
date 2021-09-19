@@ -13,6 +13,9 @@ const renderContact = () => {
   const contact = document.createElement("main");
   contact.classList.add("main-contact");
   activeNavLink();
+  const details = document.createElement("section");
+  details.classList.add("details");
+  contact.appendChild(details);
   return contact;
 };
 
