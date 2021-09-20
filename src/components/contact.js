@@ -16,8 +16,9 @@ const renderContact = () => {
   const details = document.createElement("section");
   details.classList.add("details");
   contact.appendChild(details);
-  const openingHours = document.createElement("h2");
-  openingHours.textContent = "Opening hours";
+  const openingTimes = document.createElement("h2");
+  openingTimes.textContent = "Opening hours";
+  details.appendChild(openingTimes);
   const openingTimesWeek = document.createElement("h3");
   openingTimesWeek.textContent = "MON-FRI: 11:00 - 22:00";
   details.appendChild(openingTimesWeek);
