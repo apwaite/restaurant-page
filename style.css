@@ -197,6 +197,10 @@ main {
   background: var(--bg-color);
 }
 
+.details {
+  color: var(--font-primary);
+}
+
 /* Footer */
 
 footer {
