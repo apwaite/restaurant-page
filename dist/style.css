@@ -201,6 +201,10 @@ main {
   color: var(--font-primary);
 }
 
+.social-media {
+  color: var(--font-primary);
+}
+
 /* Footer */
 
 footer {
