@@ -53,18 +53,18 @@ const renderContact = () => {
   location.classList.add("location");
   contact.appendChild(location);
 
-  const locationContainer1 = document.createElement("div");
-  locationContainer1.classList.add("loc-1");
-  location.appendChild(locationContainer1);
+  const locationImage = document.createElement("div");
+  locationImage.classList.add("location-image");
+  location.appendChild(locationImage);
 
   const image = document.createElement("img");
   image.src = "";
   image.alt = "Burger Place Location";
-  locationContainer1.appendChild(image);
+  locationImage.appendChild(image);
 
-  const locationContainer2 = document.createElement("div");
-  locationContainer2.classList.add("loc-2");
-  location.appendChild(locationContainer2);
+  const locationAddress = document.createElement("div");
+  locationAddress.classList.add("location-address");
+  location.appendChild(locationAddress);
 
   return contact;
 };
