@@ -57,6 +57,11 @@ const renderContact = () => {
   locationContainer1.classList.add("loc-1");
   location.appendChild(locationContainer1);
 
+  const image = document.createElement("img");
+  image.src = "";
+  image.alt = "Burger Place Location";
+  locationContainer1.appendChild(image);
+
   const locationContainer2 = document.createElement("div");
   locationContainer2.classList.add("loc-2");
   location.appendChild(locationContainer2);
