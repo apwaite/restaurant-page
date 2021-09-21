@@ -18,6 +18,7 @@ const renderContact = () => {
 
   activeNavLink();
 
+  // Details
   const details = document.createElement("section");
   details.classList.add("details");
   contact.appendChild(details);
@@ -34,6 +35,7 @@ const renderContact = () => {
   openingTimesWeekend.textContent = "SAT-SUN: 13:00 - 23:00";
   details.appendChild(openingTimesWeekend);
 
+  // Social Media
   const socialMedia = document.createElement("section");
   socialMedia.classList.add("social-media");
   contact.appendChild(socialMedia);
@@ -46,9 +48,18 @@ const renderContact = () => {
   socialMediaIcons.textContent = "TODO: Add social media icons";
   socialMediaContainer.appendChild(socialMediaIcons);
 
+  // Location
   const location = document.createElement("section");
   location.classList.add("location");
   contact.appendChild(location);
+
+  const locationContainer1 = document.createElement("div");
+  locationContainer1.classList.add("loc-1");
+  location.appendChild(locationContainer1);
+
+  const locationContainer2 = document.createElement("div");
+  locationContainer2.classList.add("loc-2");
+  location.appendChild(locationContainer2);
 
   return contact;
 };
