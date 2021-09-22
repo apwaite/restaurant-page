@@ -74,6 +74,9 @@ const renderContact = () => {
   streetAddress.textContent = "152 N Brand Boulevard";
   locationAddress.appendChild(streetAddress);
 
+  const zipAddress = document.createElement("p");
+  zipAddress.textContent = "Glendale, CA 91203";
+
   return contact;
 };
 
