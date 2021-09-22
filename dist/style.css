@@ -195,15 +195,25 @@ main {
   flex-direction: column;
   flex: 1;
   background: var(--bg-color);
+  color: var(--font-primary);
 }
 
 .details {
-  color: var(--font-primary);
 }
 
 .social-media {
-  color: var(--font-primary);
 }
+
+.sm-links {
+}
+
+.location {
+}
+
+.location-image {
+}
+
+.location-address
 
 /* Footer */
 
