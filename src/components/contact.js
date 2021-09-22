@@ -35,6 +35,10 @@ const renderContact = () => {
   openingTimesWeekend.textContent = "SAT-SUN: 13:00 - 23:00";
   details.appendChild(openingTimesWeekend);
 
+  const phoneNumber = document.createElement("p");
+  phoneNumber.textContent = "1-800-123-4567";
+  details.appendChild(phoneNumber);
+
   // Social Media
   const socialMedia = document.createElement("section");
   socialMedia.classList.add("social-media");
