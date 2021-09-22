@@ -66,6 +66,10 @@ const renderContact = () => {
   locationAddress.classList.add("location-address");
   location.appendChild(locationAddress);
 
+  const address = document.createElement("h2");
+  address.textContent = "Our Address:";
+  locationAddress.appendChild(address);
+
   return contact;
 };
 
