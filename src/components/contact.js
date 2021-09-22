@@ -70,6 +70,10 @@ const renderContact = () => {
   address.textContent = "Our Address:";
   locationAddress.appendChild(address);
 
+  const streetAddress = document.createElement("h3");
+  streetAddress.textContent = "152 N Brand Boulevard";
+  locationAddress.appendChild(streetAddress);
+
   return contact;
 };
 
