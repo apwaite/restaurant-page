@@ -209,6 +209,8 @@ main {
 }
 
 .location-image {
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .social-media {
@@ -217,7 +219,10 @@ main {
 .sm-links {
 }
 
-.location-address
+.location-address {
+  margin-left: auto;
+  margin-right: auto;
+}
 
 /* Footer */
 
