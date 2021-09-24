@@ -214,9 +214,13 @@ main {
 }
 
 .social-media {
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .sm-links {
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .location-address {
