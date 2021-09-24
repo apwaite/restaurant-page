@@ -193,24 +193,28 @@ main {
 .main-contact {
   display: flex;
   flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
   flex: 1;
   background: var(--bg-color);
   color: var(--font-primary);
 }
 
 .details {
-}
-
-.social-media {
-}
-
-.sm-links {
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .location {
 }
 
 .location-image {
+}
+
+.social-media {
+}
+
+.sm-links {
 }
 
 .location-address
