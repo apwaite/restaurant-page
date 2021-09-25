@@ -48,30 +48,24 @@ const renderContact = () => {
 
   // Location
   const location = document.createElement("section");
-  location.classList.add("location");
+  location.classList.add("contact-item", "location");
   contact.appendChild(location);
-
   const locationImage = document.createElement("div");
   locationImage.classList.add("location-image");
   location.appendChild(locationImage);
-
   const image = document.createElement("img");
   image.src = "";
   image.alt = "Burger Place Location";
   locationImage.appendChild(image);
-
   const locationAddress = document.createElement("div");
   locationAddress.classList.add("location-address");
   location.appendChild(locationAddress);
-
   const address = document.createElement("h2");
   address.textContent = "Our Address:";
   locationAddress.appendChild(address);
-
   const streetAddress = document.createElement("h3");
   streetAddress.textContent = "152 N Brand Boulevard";
   locationAddress.appendChild(streetAddress);
-
   const zipAddress = document.createElement("p");
   zipAddress.textContent = "Glendale, CA 91203";
 
