@@ -37,13 +37,11 @@ const renderContact = () => {
 
   // Social Media
   const socialMedia = document.createElement("section");
-  socialMedia.classList.add("social-media");
+  socialMedia.classList.add("contact-item", "social-media");
   contact.appendChild(socialMedia);
-
   const socialMediaContainer = document.createElement("div");
   socialMediaContainer.classList.add("sm-links");
   socialMedia.appendChild(socialMediaContainer);
-
   const socialMediaIcons = document.createElement("p");
   socialMediaIcons.textContent = "TODO: Add social media icons";
   socialMediaContainer.appendChild(socialMediaIcons);
