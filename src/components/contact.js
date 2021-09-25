@@ -35,17 +35,6 @@ const renderContact = () => {
   phoneNumber.textContent = "1-800-123-4567";
   details.appendChild(phoneNumber);
 
-  // Social Media
-  const socialMedia = document.createElement("section");
-  socialMedia.classList.add("contact-item", "social-media");
-  contact.appendChild(socialMedia);
-  const socialMediaContainer = document.createElement("div");
-  socialMediaContainer.classList.add("sm-links");
-  socialMedia.appendChild(socialMediaContainer);
-  const socialMediaIcons = document.createElement("p");
-  socialMediaIcons.textContent = "TODO: Add social media icons";
-  socialMediaContainer.appendChild(socialMediaIcons);
-
   // Location
   const location = document.createElement("section");
   location.classList.add("contact-item", "location");
@@ -68,6 +57,17 @@ const renderContact = () => {
   locationAddress.appendChild(streetAddress);
   const zipAddress = document.createElement("p");
   zipAddress.textContent = "Glendale, CA 91203";
+
+  // Social Media
+  const socialMedia = document.createElement("section");
+  socialMedia.classList.add("contact-item", "social-media");
+  contact.appendChild(socialMedia);
+  const socialMediaContainer = document.createElement("div");
+  socialMediaContainer.classList.add("sm-links");
+  socialMedia.appendChild(socialMediaContainer);
+  const socialMediaIcons = document.createElement("p");
+  socialMediaIcons.textContent = "TODO: Add social media icons";
+  socialMediaContainer.appendChild(socialMediaIcons);
 
   return contact;
 };
