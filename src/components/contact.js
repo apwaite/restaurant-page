@@ -20,7 +20,7 @@ const renderContact = () => {
 
   // Details
   const details = document.createElement("section");
-  details.classList.add("contact-item", "details");
+  details.classList.add("contact-item-alt", "details");
   contact.appendChild(details);
   const openingTimes = document.createElement("h2");
   openingTimes.textContent = "Opening Times:";
@@ -60,7 +60,7 @@ const renderContact = () => {
 
   // Social Media
   const socialMedia = document.createElement("section");
-  socialMedia.classList.add("contact-item", "social-media");
+  socialMedia.classList.add("contact-item-alt", "social-media");
   contact.appendChild(socialMedia);
   const socialMediaContainer = document.createElement("div");
   socialMediaContainer.classList.add("sm-links");
