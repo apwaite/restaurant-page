@@ -233,7 +233,8 @@ main {
 footer {
   display: flex;
   flex-direction: row;
-  flex-wrap: nowrap;
+  justify-content: center;
+  flex-wrap: wrap;
   background-color: var(--bg-color-alt);
   color: var(--font-secondary);
   font-weight: 600;
@@ -243,7 +244,6 @@ footer {
 .made-by {
   font-family: "Open Sans";
   font-size: 0.6rem;
-  text-align: center;
 }
 
 .fa-github {
