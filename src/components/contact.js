@@ -20,21 +20,17 @@ const renderContact = () => {
 
   // Details
   const details = document.createElement("section");
-  details.classList.add("details");
+  details.classList.add("contact-item", "details");
   contact.appendChild(details);
-
   const openingTimes = document.createElement("h2");
   openingTimes.textContent = "Opening Times:";
   details.appendChild(openingTimes);
-
   const openingTimesWeek = document.createElement("h3");
   openingTimesWeek.textContent = "MON-FRI: 11:00 - 22:00";
   details.appendChild(openingTimesWeek);
-
   const openingTimesWeekend = document.createElement("h3");
   openingTimesWeekend.textContent = "SAT-SUN: 13:00 - 23:00";
   details.appendChild(openingTimesWeekend);
-
   const phoneNumber = document.createElement("p");
   phoneNumber.textContent = "1-800-123-4567";
   details.appendChild(phoneNumber);
