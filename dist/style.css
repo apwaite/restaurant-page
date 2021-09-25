@@ -206,11 +206,11 @@ main {
 }
 
 .location {
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .location-image {
-  margin-left: auto;
-  margin-right: auto;
 }
 
 .social-media {
@@ -224,8 +224,6 @@ main {
 }
 
 .location-address {
-  margin-left: auto;
-  margin-right: auto;
 }
 
 /* Footer */
