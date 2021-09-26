@@ -200,7 +200,7 @@ main {
 }
 
 .contact-item {
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
   width: 100%;
   flex-wrap: wrap;
@@ -209,7 +209,7 @@ main {
 }
 
 .contact-item-alt {
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
   width: 100%;
   flex-wrap: wrap;
