@@ -193,7 +193,6 @@ main {
 .main-contact {
   display: flex;
   flex-direction: column;
-  flex-wrap: wrap;
   flex: 1;
   background: var(--bg-color);
   color: var(--font-secondary);
