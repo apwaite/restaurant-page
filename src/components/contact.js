@@ -57,6 +57,7 @@ const renderContact = () => {
   locationAddress.appendChild(streetAddress);
   const zipAddress = document.createElement("p");
   zipAddress.textContent = "Glendale, CA 91203";
+  locationAddress.appendChild(zipAddress);
 
   // Social Media
   const socialMedia = document.createElement("section");
