@@ -207,6 +207,11 @@ main {
   background-color: var(--bg-color);
 }
 
+.location-image img {
+  max-width: 100%;
+  margin: 0.5rem;
+}
+
 .contact-item-alt {
   flex-direction: column;
   justify-content: center;
@@ -265,6 +270,8 @@ footer {
 }
 
 @media screen and (min-width: 320px) and (max-width: 374px) {
+  /* About */
+
   .main-about {
     font-size: 0.9rem;
   }
@@ -302,6 +309,7 @@ footer {
 }
 
 @media screen and (min-width: 540px) and (max-width: 1023px) {
+  /* About */
   .main-about {
     background-position: left center;
   }
@@ -331,6 +339,34 @@ footer {
 
   .images {
   }
+
+  /* Contact */
+
+  /* .main-contact {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    background: var(--bg-color);
+    color: var(--font-secondary);
+  }
+
+  .contact-item {
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    flex-wrap: wrap;
+    color: var(--font-primary);
+    background-color: var(--bg-color);
+  }
+
+  .contact-item-alt {
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    flex-wrap: wrap;
+    color: var(--font-secondary);
+    background-color: var(--bg-color-alt);
+  } */
 }
 
 @media screen and (min-width: 1023px) and (max-width: 1111px) {
@@ -385,6 +421,8 @@ footer {
   .menu-item img {
     max-width: 30%;
   }
+
+  /* Contact */
 }
 
 @media screen and (min-width: 1112px) {
