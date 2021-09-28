@@ -43,7 +43,7 @@ const renderContact = () => {
   locationImage.classList.add("location-image");
   location.appendChild(locationImage);
   const image = document.createElement("img");
-  image.src = "";
+  image.src = "../../dist/assets/burger-place-location.jpg";
   image.alt = "Burger Place Location";
   locationImage.appendChild(image);
   const locationAddress = document.createElement("div");
