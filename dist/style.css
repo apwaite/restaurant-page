@@ -202,7 +202,6 @@ main {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 100%;
   flex-wrap: wrap;
   color: var(--font-primary);
   background-color: var(--bg-color);
@@ -211,7 +210,6 @@ main {
 .contact-item-alt {
   flex-direction: column;
   justify-content: center;
-  width: 100%;
   flex-wrap: wrap;
   color: var(--font-secondary);
   background-color: var(--bg-color-alt);
