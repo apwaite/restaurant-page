@@ -39,13 +39,6 @@ const renderContact = () => {
   const location = document.createElement("section");
   location.classList.add("contact-item", "location");
   contact.appendChild(location);
-  const locationImage = document.createElement("div");
-  locationImage.classList.add("location-image");
-  location.appendChild(locationImage);
-  const image = document.createElement("img");
-  image.src = "../../dist/assets/burger-place-location.jpg";
-  image.alt = "Burger Place Location";
-  locationImage.appendChild(image);
   const locationAddress = document.createElement("div");
   locationAddress.classList.add("location-address");
   location.appendChild(locationAddress);
@@ -58,6 +51,13 @@ const renderContact = () => {
   const zipAddress = document.createElement("p");
   zipAddress.textContent = "Glendale, CA 91203";
   locationAddress.appendChild(zipAddress);
+  const locationImage = document.createElement("div");
+  locationImage.classList.add("location-image");
+  location.appendChild(locationImage);
+  const image = document.createElement("img");
+  image.src = "../../dist/assets/burger-place-location.jpg";
+  image.alt = "Burger Place Location";
+  locationImage.appendChild(image);
 
   // Social Media
   const socialMedia = document.createElement("section");
