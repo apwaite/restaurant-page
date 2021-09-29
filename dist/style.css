@@ -201,15 +201,11 @@ main {
 .contact-item {
   flex-direction: column;
   justify-content: center;
+  align-items: center;
   width: 100%;
   flex-wrap: wrap;
   color: var(--font-primary);
   background-color: var(--bg-color);
-}
-
-.location-image img {
-  max-width: 100%;
-  margin: 0.5rem;
 }
 
 .contact-item-alt {
@@ -222,26 +218,16 @@ main {
 }
 
 .details {
-  margin-left: auto;
-  margin-right: auto;
 }
 
-.location {
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.location-image {
+.location-image img {
+  width: 100%;
 }
 
 .social-media {
-  margin-left: auto;
-  margin-right: auto;
 }
 
 .sm-links {
-  margin-left: auto;
-  margin-right: auto;
 }
 
 .location-address {
