@@ -1,6 +1,11 @@
 const renderFooter = () => {
   const footer = document.createElement("footer");
   footer.classList.add("footer");
+  const attribution = document.createElement("p");
+  attribution.classList.add("attribution");
+  attribution.textContent =
+    "Images are from Unsplash.com and are the property of their respective owners";
+  footer.appendChild(attribution);
   const madeBy = document.createElement("p");
   madeBy.classList.add("made-by");
   madeBy.textContent = "Made with ❤️ by Andrew";
