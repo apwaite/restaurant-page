@@ -235,15 +235,21 @@ main {
 
 footer {
   display: flex;
-  flex-direction: row;
-  justify-content: center;
+  flex-direction: column;
   background-color: var(--bg-color-alt);
   color: var(--font-secondary);
   font-weight: 600;
   border-top: 1px solid var(--h1-color-stroke);
 }
 
-.made-by {
+footer p {
+  justify-content: center;
+}
+
+.made-by,
+.attribution {
+  display: flex;
+  flex-direction: row;
   font-family: "Open Sans";
   font-size: 0.6rem;
 }
