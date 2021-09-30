@@ -218,17 +218,18 @@ main {
 .details {
 }
 
+.location-address {
+}
+
 .location-image img {
   width: 100%;
+  border: 1px solid var(--font-primary);
 }
 
 .social-media {
 }
 
 .sm-links {
-}
-
-.location-address {
 }
 
 /* Footer */
