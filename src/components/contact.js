@@ -67,9 +67,15 @@ const renderContact = () => {
   socialMediaContainer.classList.add("sm-links");
   socialMedia.appendChild(socialMediaContainer);
   const socialMediaIcons = document.createElement("p");
-  socialMediaIcons.textContent = "TODO: Add social media icons";
   socialMediaContainer.appendChild(socialMediaIcons);
-
+  // Facebook
+  const fbLink = document.createElement("a");
+  fbLink.href = "";
+  fbLink.target = "_blank";
+  socialMediaIcons.appendChild(fbLink);
+  const facebook = document.createElement("i");
+  facebook.classList.add("fab", "fa-facebook-square");
+  fbLink.appendChild(facebook);
   return contact;
 };
 
