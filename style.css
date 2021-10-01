@@ -232,6 +232,19 @@ main {
 .sm-links {
 }
 
+.sm-links .fab {
+  font-size: 1.5rem;
+  color: var(--font-secondary);
+}
+
+.fa-instagram {
+  margin-left: 1rem;
+}
+
+.fa-twitter {
+  margin-left: 1rem;
+}
+
 /* Footer */
 
 footer {
