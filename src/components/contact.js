@@ -84,6 +84,14 @@ const renderContact = () => {
   const instagram = document.createElement("i");
   instagram.classList.add("fab", "fa-instagram");
   instaLink.appendChild(instagram);
+  // Twitter
+  const twitterLink = document.createElement("a");
+  twitterLink.href = "";
+  twitterLink.target = "_blank";
+  socialMediaIcons.appendChild(twitterLink);
+  const twitter = document.createElement("i");
+  twitter.classList.add("fab", "fa-twitter");
+  twitterLink.appendChild(twitter);
   return contact;
 };
 
