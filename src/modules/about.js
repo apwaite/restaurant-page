@@ -18,7 +18,7 @@ const renderAbout = () => {
   mission.appendChild(inner1);
   const img = document.createElement("img");
   img.classList.add("chef");
-  img.src = "../../dist/assets/chef.jpg";
+  img.src = "assets/chef.jpg";
   img.alt = "Image of chef";
   inner1.appendChild(img);
   const inner2 = document.createElement("div");
