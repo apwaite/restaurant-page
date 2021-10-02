@@ -1,5 +1,5 @@
 import "normalize.css";
-import initialRender from "./components/initialRender";
+import initialRender from "./modules/initialRender";
 
 console.log("Connected!");
 
