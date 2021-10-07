@@ -16,6 +16,10 @@
   --section-color: #b26646;
 }
 
+html {
+  overflow-y: scroll;
+}
+
 body {
   overflow-x: hidden;
   background: var(--bg-body);
@@ -121,7 +125,6 @@ main {
 .mission {
   display: flex;
   justify-content: center;
-  height: 60;
   text-align: center;
   font-family: 'Open Sans';
   font-weight: 600;
@@ -373,7 +376,7 @@ footer p {
   }
 
   .info {
-    font-size: 1rem;
+    font-size: 1.2rem;
   }
 
   .menu-item img {
