@@ -15,7 +15,6 @@ const renderContact = () => {
   contact.classList.add('main-contact');
 
   activeNavLink();
-
   // Details
   const details = document.createElement('section');
   details.classList.add('contact-item-alt', 'details');
@@ -32,7 +31,6 @@ const renderContact = () => {
   const phoneNumber = document.createElement('p');
   phoneNumber.textContent = '1-800-123-4567';
   details.appendChild(phoneNumber);
-
   // Location
   const location = document.createElement('section');
   location.classList.add('contact-item', 'location');
@@ -56,7 +54,6 @@ const renderContact = () => {
   image.src = 'assets/burger-place-location.jpg';
   image.alt = 'Burger Place Location';
   locationImage.appendChild(image);
-
   // Social Media
   const socialMedia = document.createElement('section');
   socialMedia.classList.add('contact-item-alt', 'social-media');
