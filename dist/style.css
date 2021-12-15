@@ -296,6 +296,7 @@ footer p {
 
 @media screen and (min-width: 540px) and (max-width: 1023px) {
   /* About */
+
   .main-about {
     background-position: left center;
   }
@@ -432,4 +433,5 @@ footer p {
   .menu-item img {
     max-width: 25%;
   }
+  /* Contact */
 }
