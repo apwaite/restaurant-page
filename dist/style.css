@@ -230,7 +230,6 @@ main {
   -moz-transform: scale(1.2);
   -webkit-transform: scale(1.2);
   transform: scale(1.2);
-  transform-origin: left;
 }
 
 .fa-instagram {
@@ -242,7 +241,6 @@ main {
   -moz-transform: scale(1.2);
   -webkit-transform: scale(1.2);
   transform: scale(1.2);
-  transform-origin: left;
 }
 
 .fa-twitter {
@@ -254,7 +252,6 @@ main {
   -moz-transform: scale(1.2);
   -webkit-transform: scale(1.2);
   transform: scale(1.2);
-  transform-origin: left;
 }
 
 /* Footer */
