@@ -15,5 +15,3 @@ I learned a surprising amount from this project and found it to be a lot more ti
 1. Move into the appropriate directory and enter: "git clone https://github.com/apwaite/restaurant-page.git"
 
 2. Move into the cloned directory and type "npm init"
-
-## Challenges
